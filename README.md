@@ -1,9 +1,13 @@
 # Otp-Verification
 
 Tools > Firebase > Authentication > using custom authentication 
+
+
 Connect > Add SDK (Update those dependency else error will come )
 type "/gradlew signingReport" in terminal Copy SHA-1 Certificate Paste it in Firebase Fingerprint
 Now You can use this Project 
+
+
 ==> Send Otp Activity
 Edit text for number to send OTP using PhoneAuthProvider
 if code is send then Intent is Used
