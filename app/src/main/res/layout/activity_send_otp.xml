@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".Send_Otp">
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/send"
+        android:layout_margin="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your phone number"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:layout_below="@id/imageLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/LLl"
+    android:layout_below="@id/textViewTitle"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="+91  -"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/recipientEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:hint="1234567890"
+        android:textSize="20sp"
+        android:background="@null"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:maxLength="10"
+         />
+</LinearLayout>
+    
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/black"
+        android:layout_below="@id/LLl"/>
+
+
+    <Button
+        android:id="@+id/sendOtpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Send OTP" />
+
+</RelativeLayout>
