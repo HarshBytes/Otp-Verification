@@ -18,4 +18,9 @@ Code is Compared with user input using  PhoneAuthCredential
 FirebaseAuth used for verification 
 if code is Verified then Intent is Used
 
- MainActivity
+ ![image](https://github.com/HarshBytes/Otp-Verification/assets/137802027/b768e570-3ea1-481c-958b-5e992c836f45)
+
+
+ ![image](https://github.com/HarshBytes/Otp-Verification/assets/137802027/1799ef70-6f40-4bc6-9bef-cf7847b42d39)
+
+
